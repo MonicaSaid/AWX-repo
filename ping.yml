@@ -1,5 +1,5 @@
 - name: Ping Test Play Book
-  hosts: ww-node01
+  hosts: 192.168.100.94
   tasks:
     - name: Ping Test
       ping:
