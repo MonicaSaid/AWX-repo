@@ -1,5 +1,5 @@
 - name: Ping Test Play Book
-  hosts: 192.168.100.94
+  hosts: all
   tasks:
     - name: Ping Test
       ping:
