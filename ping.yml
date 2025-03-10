@@ -1,5 +1,5 @@
 - name: Ping Test Play Book
-  hosts: localhost
+  hosts: ww-node01
   tasks:
     - name: Ping Test
       ping:
